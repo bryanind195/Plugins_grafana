@@ -1,0 +1,595 @@
+
+    "panels": [
+      {
+        "datasource": null,
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 3,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        },
+        "id": 7,
+        "options": {
+          "seriesCountSize": "sm",
+          "showSeriesCount": false,
+          "text": "Default value of text input option"
+        },
+        "pluginVersion": "7.4.5",
+        "targets": [
+          {
+            "queryType": "randomWalk",
+            "refId": "A"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "transparent": true,
+        "type": "telconet-menu"
+      },
+      {
+        "datasource": "PDU",
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 17,
+          "w": 24,
+          "x": 0,
+          "y": 3
+        },
+        "id": 2,
+        "options": {
+          "fase": "A",
+          "marca": "GENERAL ELECTRIC",
+          "modelo": "MNCAB031",
+          "sistema": "S1 Y S2",
+          "ubicacion": "SALA TI"
+        },
+        "pluginVersion": "7.4.5",
+        "targets": [
+          {
+            "alias": "",
+            "bucketAggs": [
+              {
+                "id": "2",
+                "settings": {
+                  "interval": "auto"
+                },
+                "type": "date_histogram"
+              }
+            ],
+            "metrics": [
+              {
+                "field": "DATA.COMM_ALM.VALUE",
+                "id": "1",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.DOOR_OPEN_ALM.VALUE",
+                "id": "3",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.GEN_ALM.VALUE",
+                "id": "4",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.IN1_AB_VOL.VALUE",
+                "id": "5",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.IN1_BC_VOL.VALUE",
+                "id": "6",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.IN1_CA_VOL.VALUE",
+                "id": "7",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.IN1_VOL_HI_ALM.VALUE",
+                "id": "8",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.IN1_VOL_LOW_ALM.VALUE",
+                "id": "9",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.KW.VALUE",
+                "id": "10",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.KWH.VALUE",
+                "id": "11",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.MAIN_TRIP_ALM.VALUE",
+                "id": "12",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.MC.VALUE",
+                "id": "13",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.MODBUS_ST.VALUE",
+                "id": "14",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.MV.VALUE",
+                "id": "15",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_AB_VOL.VALUE",
+                "id": "16",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_BC_VOL.VALUE",
+                "id": "17",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_CA_VOL.VALUE",
+                "id": "18",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_A_CUR.VALUE",
+                "id": "19",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_B_CUR.VALUE",
+                "id": "20",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_C_CUR.VALUE",
+                "id": "21",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_KWH.VALUE",
+                "id": "22",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_TOTAL_KVA.VALUE",
+                "id": "23",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_VOL_HI_ALM.VALUE",
+                "id": "25",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_VOL_LOW_ALM.VALUE",
+                "id": "26",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.NEUT_CUR.VALUE",
+                "id": "27",
+                "type": "avg"
+              }
+            ],
+            "query": "EQUIPO:${EQUIPO}",
+            "queryType": "randomWalk",
+            "refId": "A",
+            "timeField": "@timestamp"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "transparent": true,
+        "type": "telconet-pdu"
+      },
+      {
+        "aliasColors": {},
+        "bars": false,
+        "dashLength": 10,
+        "dashes": false,
+        "datasource": "PDU_ELASTIC_10_10_21",
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "fill": 1,
+        "fillGradient": 0,
+        "gridPos": {
+          "h": 7,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        },
+        "hiddenSeries": false,
+        "id": 4,
+        "legend": {
+          "avg": false,
+          "current": false,
+          "max": false,
+          "min": false,
+          "show": true,
+          "total": false,
+          "values": false
+        },
+        "lines": true,
+        "linewidth": 1,
+        "nullPointMode": "connected",
+        "options": {
+          "alertThreshold": true
+        },
+        "percentage": false,
+        "pluginVersion": "7.4.5",
+        "pointradius": 2,
+        "points": false,
+        "renderer": "flot",
+        "seriesOverrides": [],
+        "spaceLength": 10,
+        "stack": false,
+        "steppedLine": false,
+        "targets": [
+          {
+            "alias": "",
+            "bucketAggs": [
+              {
+                "id": "2",
+                "settings": {
+                  "interval": "auto"
+                },
+                "type": "date_histogram"
+              }
+            ],
+            "metrics": [
+              {
+                "field": "DATA.OUT1_AB_VOL.VALUE",
+                "id": "1",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_BC_VOL.VALUE",
+                "id": "3",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_CA_VOL.VALUE",
+                "id": "4",
+                "type": "avg"
+              }
+            ],
+            "query": "EQUIPO:${EQUIPO}",
+            "queryType": "randomWalk",
+            "refId": "A",
+            "timeField": "@timestamp"
+          }
+        ],
+        "thresholds": [],
+        "timeFrom": null,
+        "timeRegions": [],
+        "timeShift": null,
+        "title": "VOLTAGE OUTPUT",
+        "tooltip": {
+          "shared": true,
+          "sort": 0,
+          "value_type": "individual"
+        },
+        "transparent": true,
+        "type": "graph",
+        "xaxis": {
+          "buckets": null,
+          "mode": "time",
+          "name": null,
+          "show": true,
+          "values": []
+        },
+        "yaxes": [
+          {
+            "$$hashKey": "object:186",
+            "format": "volt",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          },
+          {
+            "$$hashKey": "object:187",
+            "format": "short",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          }
+        ],
+        "yaxis": {
+          "align": false,
+          "alignLevel": null
+        }
+      },
+      {
+        "aliasColors": {},
+        "bars": false,
+        "dashLength": 10,
+        "dashes": false,
+        "datasource": "PDU_ELASTIC_10_10_21",
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "fill": 1,
+        "fillGradient": 0,
+        "gridPos": {
+          "h": 7,
+          "w": 12,
+          "x": 12,
+          "y": 20
+        },
+        "hiddenSeries": false,
+        "id": 5,
+        "legend": {
+          "avg": false,
+          "current": false,
+          "hideEmpty": false,
+          "hideZero": false,
+          "max": false,
+          "min": false,
+          "show": true,
+          "total": false,
+          "values": false
+        },
+        "lines": true,
+        "linewidth": 1,
+        "nullPointMode": "connected",
+        "options": {
+          "alertThreshold": true
+        },
+        "percentage": false,
+        "pluginVersion": "7.4.5",
+        "pointradius": 2,
+        "points": false,
+        "renderer": "flot",
+        "seriesOverrides": [],
+        "spaceLength": 10,
+        "stack": false,
+        "steppedLine": false,
+        "targets": [
+          {
+            "alias": "",
+            "bucketAggs": [
+              {
+                "id": "2",
+                "settings": {
+                  "interval": "auto"
+                },
+                "type": "date_histogram"
+              }
+            ],
+            "metrics": [
+              {
+                "field": "DATA.OUT1_A_CUR.VALUE",
+                "id": "1",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_B_CUR.VALUE",
+                "id": "3",
+                "type": "avg"
+              },
+              {
+                "field": "DATA.OUT1_C_CUR.VALUE",
+                "id": "4",
+                "type": "avg"
+              }
+            ],
+            "query": "EQUIPO:${EQUIPO}",
+            "queryType": "randomWalk",
+            "refId": "A",
+            "timeField": "@timestamp"
+          }
+        ],
+        "thresholds": [],
+        "timeFrom": null,
+        "timeRegions": [],
+        "timeShift": null,
+        "title": "CURRENT OUTPUT",
+        "tooltip": {
+          "shared": true,
+          "sort": 0,
+          "value_type": "individual"
+        },
+        "transparent": true,
+        "type": "graph",
+        "xaxis": {
+          "buckets": null,
+          "mode": "time",
+          "name": null,
+          "show": true,
+          "values": []
+        },
+        "yaxes": [
+          {
+            "$$hashKey": "object:186",
+            "format": "amp",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          },
+          {
+            "$$hashKey": "object:187",
+            "format": "short",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          }
+        ],
+        "yaxis": {
+          "align": false,
+          "alignLevel": null
+        }
+      }
+    ],
+    "refresh": "5s",
+    "schemaVersion": 27,
+    "style": "dark",
+    "tags": [
+      "ELECTRICO",
+      "PDU",
+      "UNI"
+    ],
+    "templating": {
+      "list": [
+        {
+          "allValue": null,
+          "current": {
+            "selected": false,
+            "text": "PDU_1A_F1",
+            "value": "PDU_1A_F1"
+          },
+          "description": null,
+          "error": null,
+          "hide": 0,
+          "includeAll": false,
+          "label": null,
+          "multi": false,
+          "name": "EQUIPO",
+          "options": [
+            {
+              "selected": true,
+              "text": "PDU_1A_F1",
+              "value": "PDU_1A_F1"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F2",
+              "value": "PDU_1A_F2"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F3",
+              "value": "PDU_1A_F3"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F4",
+              "value": "PDU_1A_F4"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F5",
+              "value": "PDU_1A_F5"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F6",
+              "value": "PDU_1A_F6"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F7",
+              "value": "PDU_1A_F7"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F8",
+              "value": "PDU_1A_F8"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F9",
+              "value": "PDU_1A_F9"
+            },
+            {
+              "selected": false,
+              "text": "PDU_1A_F10",
+              "value": "PDU_1A_F10"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F1",
+              "value": "PDU_2A_F1"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F2",
+              "value": "PDU_2A_F2"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F3",
+              "value": "PDU_2A_F3"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F4",
+              "value": "PDU_2A_F4"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F5",
+              "value": "PDU_2A_F5"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F6",
+              "value": "PDU_2A_F6"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F7",
+              "value": "PDU_2A_F7"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F8",
+              "value": "PDU_2A_F8"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F9",
+              "value": "PDU_2A_F9"
+            },
+            {
+              "selected": false,
+              "text": "PDU_2A_F10",
+              "value": "PDU_2A_F10"
+            }
+          ],
+          "query": "PDU_1A_F1,PDU_1A_F2,PDU_1A_F3,PDU_1A_F4,PDU_1A_F5,PDU_1A_F6,PDU_1A_F7,PDU_1A_F8,PDU_1A_F9,PDU_1A_F10,PDU_2A_F1,PDU_2A_F2,PDU_2A_F3,PDU_2A_F4,PDU_2A_F5,PDU_2A_F6,PDU_2A_F7,PDU_2A_F8,PDU_2A_F9,PDU_2A_F10",
+          "queryValue": "",
+          "skipUrlSync": false,
+          "type": "custom"
+        }
+      ]
+    

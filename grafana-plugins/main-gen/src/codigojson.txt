@@ -1,0 +1,4030 @@
+"datasource": "-- Mixed --",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 14,
+        "w": 19,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "options": {},
+      "pluginVersion": "7.4.5",
+      "targets": [
+        {
+          "alias": "ST_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "A",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ST_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "B",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ST_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "C",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ST_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "D",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ST_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "E",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ST_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "F",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "G",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "H",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "I",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "J",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "K",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_STOP_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.E_STOP.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "L",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "M",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "N",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "O",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "P",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "Q",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "F_START_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_START.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "R",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "S",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "T",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "U",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "V",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "W",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HV_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "X",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "Y",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "Z",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LV_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LV_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_OIL_P_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.L_OIL_P.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_O_SPD_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.O_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_U_SPD_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.U_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_TEMP_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.H_COOL_T.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_REST_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.F_REST.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LOSS_SPD_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LOSS_SPEED.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_LF_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LF_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "ALA_HCUR_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.HCUR_GEN.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FREQ_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FREQ.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CONTROL_M_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CONTROL_MODE.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_WATS_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_WATTS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TOT_VA_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.TOT_VA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVA_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVA_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.KVAR_HOURS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "HOURS_KVAR_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "CUR_AVG_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN3",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_3\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN4",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_4\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN5",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_5\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "LLVOL_AVG_GEN6",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.LL_VOL_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_2A_6\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "FUEL_LVL_GEN1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "GENERADORESDEEPSEA",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.FUEL_LEV.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"GEN_1A_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_VFF0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": true,
+          "metrics": [
+            {
+              "field": "DATA.VOL_VBC.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_VFN0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": true,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_AMP0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": true,
+          "metrics": [
+            {
+              "field": "DATA.CURR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_KW0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_REAL_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_CARGA0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": true,
+          "metrics": [
+            {
+              "field": "DATA.POW_REAL_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_KVA0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_APPRT_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_VFF",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.VOL_VCA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_AMP",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CURR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_KW",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.REALPOW_3PHAS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_KVA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_APPRT_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_VFF",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.VOL_VCA.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_AMP",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CURR_AVG.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_KW",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.REALPOW_3PHAS.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_KVA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_APPRT_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_CURA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_CURB",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_CURC",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_VA0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_VB0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_VC0",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_0\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_VA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_VB",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_VC",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_CURA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_CURB",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_1_CURC",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_KW1",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_REAL_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_1\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_KW2",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.POW_REAL_TOTAL.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_VA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_VB",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_VC",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.V_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_CURA",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_A.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_CURB",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_B.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        },
+        {
+          "alias": "TDLOW_2_CURC",
+          "bucketAggs": [
+            {
+              "id": "2",
+              "settings": {
+                "interval": "auto"
+              },
+              "type": "date_histogram"
+            }
+          ],
+          "datasource": "Tdlows",
+          "hide": false,
+          "metrics": [
+            {
+              "field": "DATA.CUR_FASE_C.VALUE",
+              "id": "1",
+              "type": "avg"
+            }
+          ],
+          "query": "EQUIPO:\"TDLOW_2\"",
+          "refId": "NA",
+          "timeField": "@timestamp"
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Panel Title",
+      "type": "telconet-main-gen"
